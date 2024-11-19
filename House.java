@@ -1,5 +1,6 @@
 /** This program draws a house
- *   @author 
+ *   @author M. Brit Dannen
+ *   @version Fall 2024
  */
 
 // Import a couple of library-packages
@@ -59,24 +60,6 @@ public class House extends Canvas
         
     }//paint
 
-    /** Writing Sample Assignment 
-     * 
-     *  Justificatin: Java graphics can be confusing to new students and can take 
-     *  quite a while for drawing something complex. This method allows students to
-     *  use and see how the simple concepts they've learned so far can build complex 
-     *  methods or smplify a problem.   
-     * 
-     *  Context: Students are culminating their skills used in each checkpoint in this 
-     *  lab to draw a house which shows their creativity through color and design. 
-     *  You can chose whether or not they can edit this method, or if they have to write 
-     *  it for extra credit :)
-     * 
-     *  Importance: This method not only helps students with the checkpoint, it helps the 
-     *  instructor show students how they use/manipulate Java graphics medthods, explain 
-     *  complex topics in the CS203 curriculum, and assist the TA in explaining 
-     *  checkpoints and concepts during lab time. 
-     */
-
     /**
      * Draws a window with a frame and a pane on a graphics context.
      * 
@@ -100,7 +83,7 @@ public class House extends Canvas
         g.setColor(paneColor);
         g.fillRect(x + frameThickness, y + frameThickness, width - 2 * frameThickness, height - 2 * frameThickness);
 
-        // Add divisions to the window pane (Optional)
+        // Add divisions to the window pane
         int divisionThickness = 2;
         int centerX = x + width / 2;
         int centerY = y + height / 2;
