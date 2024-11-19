@@ -60,7 +60,7 @@ public class House extends Canvas
         
     }//paint
 
-    /**
+    /** drawWindow
      * Draws a window with a frame and a pane on a graphics context.
      * 
      * @param   g           the Graphics context to draw on
@@ -94,7 +94,7 @@ public class House extends Canvas
 
         // Horizontal division
         g.fillRect(x + frameThickness, centerY - divisionThickness / 2, width - 2 * frameThickness, divisionThickness);
-    }
+    }//drawWindow
 
     /**
      * main
