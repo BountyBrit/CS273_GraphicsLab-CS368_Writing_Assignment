@@ -8,7 +8,7 @@ __Justification__ for changes:
   well as color. Then using simple geometry, it draws the window pane always smaller than the frame. This affect shows
   how layering objects on the graphics context can create depth and style within an otherwise simple graphics window.
   Finally, drawWindow creates the horizontal and vertical divisions as the same color as the frame to ensure a clean
-  and elegant window. 
+  and elegant design. 
   
 
 __Context__ of lab and changes:
